@@ -1,0 +1,71 @@
+{
+  "id": "lfd8K87E2veNceoh",
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "4adfb611-e56f-4d09-860c-631ee87b0a3f",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "messages": {
+          "values": [
+            {}
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "bb3fe35a-58d4-4551-a977-c2652c669cfb",
+      "name": "Message a model"
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "9a201526-b054-45f1-8774-158a84319984",
+  "owner": {
+    "type": "team",
+    "teamId": "yvyQLLtBaicndWKs",
+    "teamName": "test1"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
