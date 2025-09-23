@@ -1,0 +1,18 @@
+{
+  "id": "6kkMvR03aOzRH7mY",
+  "name": "Postgres account",
+  "type": "postgres",
+  "data": {
+    "host": "",
+    "database": "",
+    "user": "",
+    "password": "",
+    "port": 54322
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "IByvrwHmyKQsdzsw",
+    "projectName": "Dinesh Bhogadi <dinesh.bhogadi@axleinfo.com>",
+    "personalEmail": "dinesh.bhogadi@axleinfo.com"
+  }
+}

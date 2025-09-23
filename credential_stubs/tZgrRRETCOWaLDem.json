@@ -1,0 +1,14 @@
+{
+  "id": "tZgrRRETCOWaLDem",
+  "name": "Google Gemini(PaLM) Api account",
+  "type": "googlePalmApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "IByvrwHmyKQsdzsw",
+    "projectName": "Dinesh Bhogadi <dinesh.bhogadi@axleinfo.com>",
+    "personalEmail": "dinesh.bhogadi@axleinfo.com"
+  }
+}
