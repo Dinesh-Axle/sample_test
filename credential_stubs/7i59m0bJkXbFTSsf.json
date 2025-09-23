@@ -1,0 +1,15 @@
+{
+  "id": "7i59m0bJkXbFTSsf",
+  "name": "Ollama account",
+  "type": "ollamaApi",
+  "data": {
+    "baseUrl": "",
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "IByvrwHmyKQsdzsw",
+    "projectName": "Dinesh Bhogadi <dinesh.bhogadi@axleinfo.com>",
+    "personalEmail": "dinesh.bhogadi@axleinfo.com"
+  }
+}

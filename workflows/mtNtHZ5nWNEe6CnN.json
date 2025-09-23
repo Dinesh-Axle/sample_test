@@ -1,0 +1,69 @@
+{
+  "id": "mtNtHZ5nWNEe6CnN",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "96b11aab-530c-4d65-a4c6-b514eebe7d67",
+              "name": "test",
+              "value": "$vars.test",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -144,
+        -16
+      ],
+      "id": "a768894d-53f4-4344-b79a-9ef272618086",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "url": "=https://postman-echo.com/get?user={{$json[\"test\"]}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        16,
+        -16
+      ],
+      "id": "800d9f98-f241-46c4-9d60-ac7a3ba740bb",
+      "name": "HTTP Request"
+    }
+  ],
+  "connections": {
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "f1ad0995-db2b-4d6d-b931-1bc60135e804",
+  "owner": {
+    "type": "personal",
+    "projectId": "IByvrwHmyKQsdzsw",
+    "projectName": "Dinesh Bhogadi <dinesh.bhogadi@axleinfo.com>",
+    "personalEmail": "dinesh.bhogadi@axleinfo.com"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

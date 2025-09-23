@@ -1,0 +1,47 @@
+{
+  "id": "uC13wbSAnPFh3SeM",
+  "name": "Assign values to variables using the Set node",
+  "nodes": [
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "text",
+              "value": "={{ $vars.text }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "4879e01e-88d5-42a6-a736-8341264146e9",
+      "name": "Set Variable",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        688,
+        320
+      ]
+    }
+  ],
+  "connections": {
+    "Set Variable": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "7bacee27-1cba-448e-a9c2-e72d9e6c2489",
+  "owner": {
+    "type": "personal",
+    "projectId": "IByvrwHmyKQsdzsw",
+    "projectName": "Dinesh Bhogadi <dinesh.bhogadi@axleinfo.com>",
+    "personalEmail": "dinesh.bhogadi@axleinfo.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}
